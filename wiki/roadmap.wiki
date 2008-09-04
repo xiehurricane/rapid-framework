@@ -1,31 +1,31 @@
 ==rapid-framework路线图==
 
-整合其它显示层技术
+===整合其它显示层技术===
 	Flex+BlazeDS,Ext2
-增加WEB框架
+===增加WEB框架=
 	SpringMVC
-增加列表组件
+===增加列表组件===
 	Jmesa,SimpleList
-整合SiteMesh
+===整合SiteMesh===
 
-整合安全框架
+===整合安全框架===
 	基于RBAC的SpringSecurity权限管理or 重复发明轮子rapid-security
-数据访问层
+===数据访问层===
 	Ibatis,SpringJDBC,JPA
-整合RichEditor
+===整合RichEditor===
         FckEditor
-寻找Tree组件
+===寻找Tree组件===
 
-模板文件
+===模板文件===
 	修改hiberante_xml使用CompositeId.java
 	增加简单版本的list.jsp,争取不喜欢extremeTable的用户
 	增加freemarker的CURD页面
 
-rapid-validation
+===rapid-validation===
 	* 1.整合javaeye tooltip的错误显示效果
 	2.框架独立,不依赖prototype,争取jquery用户
 	3.ajax验证使用异步方式
-其它
+===其它===
 	www.rapid-framework.org.cn上线,已经向redsaga申请通过,但需等网站备案审批
 
 	struts2 DirectResult对其它返回类型的支持,FreeMarker优先
